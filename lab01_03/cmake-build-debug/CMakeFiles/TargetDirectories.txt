@@ -1,0 +1,3 @@
+/Users/canozaydin/CLionProjects/lab01_03/cmake-build-debug/CMakeFiles/lab01_03.dir
+/Users/canozaydin/CLionProjects/lab01_03/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/canozaydin/CLionProjects/lab01_03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
