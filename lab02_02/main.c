@@ -55,6 +55,7 @@ char **readFile(char *filename){
         }
         i++;
     }
+    fclose(fp);
     return matrix;
 }
 
@@ -80,4 +81,5 @@ void printToFile(char *outfile, char **M){
     }
     rewind(f_out);
     fprintf(f_out, "%d\n", i-1);
+    fclose(fp);
 }
