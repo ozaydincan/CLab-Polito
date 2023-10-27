@@ -108,6 +108,7 @@ struct matrix fillMatrix(char *filename){
         }
         i++;
     }
+    fclose(fp);
     struct matrix dMatrix;
     dMatrix.range = size;
     dMatrix.dMatrix = dynamicMatrix;
@@ -146,4 +147,5 @@ void printMatrix(char **matrix, char *filename, int size){
         char *word = matrix[i];
         fprintf(fp, "%s\n", word);
     }
+    fclose(fp);
 }
