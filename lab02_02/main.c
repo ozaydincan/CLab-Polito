@@ -24,6 +24,7 @@ int main(int argc, char *argv[]) {
     char *filename = argv[1], *outfile = argv[2];
     char **matrix = readFile(filename);
     printToFile(outfile, matrix);
+    free(matrix);
     return 0;
 }
 
